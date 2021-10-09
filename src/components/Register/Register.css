@@ -1,0 +1,43 @@
+.register-form-parent {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submitbutton-register {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0;
+  background-color: #2c2e9b;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.googlebutton-register {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0;
+  background-color: rgb(219, 161, 14);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.register-form {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: first baseline;
+  background-color: rgb(210, 243, 210);
+}
+
+.register-form input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+}

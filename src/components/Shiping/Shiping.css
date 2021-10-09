@@ -1,0 +1,33 @@
+.hook-form {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.main-form {
+  display: flex;
+  justify-content: first baseline;
+  flex-direction: column;
+  background-color: lightsteelblue;
+  width: 600px;
+  padding: 30px;
+  height: 500px;
+  border-radius: 7px;
+}
+.main-form input {
+  margin-bottom: 15px;
+  padding: 13px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+.main-form button {
+  background-color: tomato;
+  padding: 14px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+}
+.main-form select {
+  margin-bottom: 5px;
+  padding: 13px;
+}
